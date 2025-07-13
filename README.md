@@ -48,3 +48,32 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+# 🎥 React Native Video Challenge App
+
+This app allows users to view a challenge, record a video response (max 15s), add fun stickers, and submit it for moderation.
+
+---
+
+## 🚀 Setup Instructions
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/your-username/video-challenge-app.git
+cd video-challenge-app
+
+```
+
+📁 Folder Structure
+
+app/
+├── index.tsx # Home screen
+├── record.tsx # Video recording screen
+├── preview.tsx # Preview & sticker screen
+components/
+├── StickerPicker.tsx # Sticker selection row
+assets/
+├── stickers/ # Emoji icons
+├── record_sound.mp3 # Sound effect
+README.md
